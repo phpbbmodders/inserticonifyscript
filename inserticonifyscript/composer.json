@@ -1,0 +1,25 @@
+{
+    "name": "modders/inserticonifyscript",
+    "type": "phpbb-extension",
+    "description": "PHPBB Extension to insert Iconify script before </body>.",
+    "homepage": "https://www.phpbbmodders.com/",
+    "version": "1.0.0-dev",
+    "time": "2024-05-28",
+    "license": "GPL-2.0-only",
+    "authors": [
+        {
+            "name": "William",
+            "email": "board@phpbbmodders.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4.0",
+        "composer/installers": "~1.0"
+    },
+    "extra": {
+        "display-name": "Insert Iconify Script",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.3.0,<4.0.0@dev"
+        }
+    }
+}
