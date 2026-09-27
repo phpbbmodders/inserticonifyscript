@@ -1,0 +1,7 @@
+services:
+    phpbbmodders.inserticonifyscript.listener:
+        class: phpbbmodders\inserticonifyscript\event\listener
+        arguments:
+            - '@template'
+        tags:
+            - { name: event.listener }
