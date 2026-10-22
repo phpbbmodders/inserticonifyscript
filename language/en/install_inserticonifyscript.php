@@ -38,6 +38,6 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, [
-	'INSERTICONIFYSCRIPT_NOT_ENABLEABLE'	=> 'Insert Iconify Script could not be enabled. The minimum requirements of phpBB 3.3.19 and/or PHP 7.4.0 were not satisfied.',
+	'INSERTICONIFYSCRIPT_NOT_ENABLEABLE'	=> 'Insert Iconify Script could not be enabled. The minimum requirements of phpBB 3.3.19 and/or PHP 8.3.36 were not satisfied.',
 	'INSERTICONIFYSCRIPT_DISABLE_OLD'	=> 'Disable the old “%s” extension first.',
 ]);
