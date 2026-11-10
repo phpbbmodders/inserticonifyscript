@@ -12,7 +12,7 @@ Loads the Iconify icon script on every page so Iconify icons can be used in temp
 ## Requirements
 
 - phpBB 3.3.19 or later
-- PHP 7.4 or later
+- PHP 8.1 or later
 
 ## Installation
 
